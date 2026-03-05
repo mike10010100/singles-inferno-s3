@@ -16,14 +16,14 @@ const STORAGE_KEY = 'singles_inferno_s3_state_v1';
 
 const initialContestants: Contestant[] = [
   // Initial Women
-  { id: 1, name: "Choi Hye-seon", gender: 'Female', imageUrl: "https://i.mydramalist.com/vN2_3f.jpg", status: 'Inferno', isLocked: false, notes: "Bioinformatics student at Ewha" },
-  { id: 2, name: "Kim Gyu-ri", gender: 'Female', imageUrl: "https://i.mydramalist.com/VpP7O_5f.jpg", status: 'Inferno', isLocked: false, notes: "Model, Miss Korea 2022 contestant" },
+  { id: 1, name: "Choi Hye-seon", gender: 'Female', imageUrl: "https://i.mydramalist.com/V2zXz_5f.jpg", status: 'Inferno', isLocked: false, notes: "Bioinformatics student at Ewha" },
+  { id: 2, name: "Kim Gyu-ri", gender: 'Female', imageUrl: "https://i.mydramalist.com/X6666_5f.jpg", status: 'Inferno', isLocked: false, notes: "Model, Miss Korea 2022 contestant" },
   { id: 3, name: "An Min-young", gender: 'Female', imageUrl: "https://i.mydramalist.com/wJxV0b_5f.jpg", status: 'Inferno', isLocked: false, notes: "Pilates instructor" },
-  { id: 4, name: "Yu Si-eun", gender: 'Female', imageUrl: "https://i.mydramalist.com/X4Alpz_5f.jpg", status: 'Inferno', isLocked: false, notes: "Freelance model, Miss Korea 2022 runner-up" },
+  { id: 4, name: "Yu Si-eun", gender: 'Female', imageUrl: "https://i.mydramalist.com/vN2_3f.jpg", status: 'Inferno', isLocked: false, notes: "Freelance model, Miss Korea 2022 runner-up" },
   { id: 5, name: "Yun Ha-jeong", gender: 'Female', imageUrl: "https://i.mydramalist.com/1wmL4R_5f.jpg", status: 'Inferno', isLocked: false, notes: "Medical clothing company office worker" },
   
   // Initial Men
-  { id: 6, name: "Lee Gwan-hee", gender: 'Male', imageUrl: "https://i.mydramalist.com/v6666_5f.jpg", status: 'Inferno', isLocked: false, notes: "Professional basketball player" },
+  { id: 6, name: "Lee Gwan-hee", gender: 'Male', imageUrl: "https://i.mydramalist.com/X4Alpz_5f.jpg", status: 'Inferno', isLocked: false, notes: "Professional basketball player" },
   { id: 7, name: "Lee Jin-seok", gender: 'Male', imageUrl: "https://i.mydramalist.com/x4Alpz_5f.jpg", status: 'Inferno', isLocked: false, notes: "Cafe owner & baker" },
   { id: 8, name: "Choi Min-woo", gender: 'Male', imageUrl: "https://i.mydramalist.com/5v8QvA_5f.jpg", status: 'Inferno', isLocked: false, notes: "Model" },
   { id: 9, name: "Park Min-kyu", gender: 'Male', imageUrl: "https://i.mydramalist.com/2wrqNO_5f.jpg", status: 'Inferno', isLocked: false, notes: "Coast Guard Rescue Team" },
@@ -31,7 +31,7 @@ const initialContestants: Contestant[] = [
   { id: 11, name: "Yun Ha-bin", gender: 'Male', imageUrl: "https://i.mydramalist.com/VXLkPO_5f.jpg", status: 'Inferno', isLocked: false, notes: "Actor" },
 
   // Late Comer
-  { id: 12, name: "Cho Min-ji", gender: 'Female', imageUrl: "https://placehold.co/400x600/1a1a1a/ffffff?text=LOCKED", status: 'Inferno', isLocked: true, notes: "Arrives later (Economic student)" },
+  { id: 12, name: "Cho Min-ji", gender: 'Female', imageUrl: "https://i.mydramalist.com/VpP7O_5f.jpg", status: 'Inferno', isLocked: true, notes: "Arrives later (Economic student)" },
 ];
 
 function App() {
